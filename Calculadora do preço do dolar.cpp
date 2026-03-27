@@ -5,7 +5,7 @@
 #include<locale.h>
 
 int main ()
-{//inicio
+{
 	//variaveis
 	setlocale (LC_ALL,"portuguese");
 	float cot, dolar, reais=0;
