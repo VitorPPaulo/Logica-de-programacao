@@ -2,10 +2,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
+#include<locale.h>
 
 int main ()
 {//inicio
 	//variaveis
+	setlocale (LC_ALL,"portuguese");
 	float cot, dolar, reais=0;
 	//inicio
 	printf("Entre com a cotacao:\n");
