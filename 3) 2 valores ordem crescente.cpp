@@ -8,7 +8,7 @@ int main ()
 {
 	//variaveis
 	setlocale (LC_ALL,"portuguese");
-	float valor1, valor2, valor3, valor4=0;
+	float valor1, valor2=0;
 	//inicio
 	printf("Entre com o primeiro valor\n");
 	scanf("%f", &valor1);
