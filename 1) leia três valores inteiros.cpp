@@ -26,6 +26,6 @@ int main ()
     		if (valor3 < valor4) {
         		valor4 = valor3;
     		}
-    printf("O menor valor é: %.2f\n", valor4);
+    printf("O menor valor Ã©: %.2f\n", valor4);
 	getch();
 }//fim
