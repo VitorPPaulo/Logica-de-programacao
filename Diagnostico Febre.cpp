@@ -12,10 +12,10 @@ float valor1=0;
 printf ("Entre com a temperatura:\n");
 scanf("%f", &valor1);
 if(valor1 >= 37){
-	printf ("O Diagnostico é: Febre");
+	printf ("O Diagnostico Ã©: Febre");
 	}
 		else{
-			printf ("O Diagnostico é: Normal");
+			printf ("O Diagnostico Ã©: Normal");
 		}
 }
 
