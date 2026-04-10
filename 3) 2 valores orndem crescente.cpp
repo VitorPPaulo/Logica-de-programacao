@@ -15,10 +15,10 @@ int main ()
 	printf("Entre com o segundo valor\n");
 	scanf("%f", &valor2);
 	if(valor1 < valor2) {
-		printf("%.0f, %.0f", valor1, valor2);
+		printf("%.2f, %.2f", valor1, valor2);
 		}
 			if(valor2 < valor1){
-				printf("%.0f, %.0f", valor2, valor1);
+				printf("%.2f, %.2f", valor2, valor1);
 			}
 getch();
 }
