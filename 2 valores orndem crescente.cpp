@@ -20,4 +20,5 @@ int main ()
 			if(valor2 < valor1){
 				printf("%.0f, %.0f", valor2, valor1);
 			}
+getch();
 }
