@@ -17,5 +17,5 @@ if(valor1 >= 37){
 		else{
 			printf ("O Diagnostico é: Normal");
 		}
+getch();
 }
-
