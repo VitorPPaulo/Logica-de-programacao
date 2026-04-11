@@ -11,11 +11,11 @@ int main ()
 	int valor1, valor2, valor3, valor4=0;
 	//inicio
 	printf("Entre com o primeiro valor\n");
-	scanf("%f", &valor1);
+	scanf("%i", &valor1);
 	printf("Entre com o segundo valor\n");
-	scanf("%f", &valor2);
+	scanf("%i", &valor2);
 	printf("Entre com o terceiro valor\n");
-	scanf("%f", &valor3);
+	scanf("%i", &valor3);
 	valor4 = valor1;
 	if(valor1 < valor4) {
 		valor4 = valor1;
@@ -26,6 +26,6 @@ int main ()
     		if (valor3 < valor4) {
         		valor4 = valor3;
     		}
-    printf("O menor valor é: %1\n", valor4);
+    printf("O menor valor é: %i\n", valor4);
 	getch();
 }//fim
