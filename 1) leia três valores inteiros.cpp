@@ -8,7 +8,7 @@ int main ()
 {
 	//variaveis
 	setlocale (LC_ALL,"portuguese");
-	float valor1, valor2, valor3, valor4=0;
+	int valor1, valor2, valor3, valor4=0;
 	//inicio
 	printf("Entre com o primeiro valor\n");
 	scanf("%f", &valor1);
@@ -26,6 +26,6 @@ int main ()
     		if (valor3 < valor4) {
         		valor4 = valor3;
     		}
-    printf("O menor valor é: %.2f\n", valor4);
+    printf("O menor valor é: %1\n", valor4);
 	getch();
 }//fim
