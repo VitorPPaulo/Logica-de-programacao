@@ -21,10 +21,10 @@ int main ()
 		valor4 = valor1;
 	}
 	if (valor2 < valor4) {
-    		    valor4 = valor2;
+    	valor4 = valor2;
     }
     if (valor3 < valor4) {
-        		valor4 = valor3;
+    	valor4 = valor3;
     }
     printf("O menor valor é: %i\n", valor4);
 	getch();
